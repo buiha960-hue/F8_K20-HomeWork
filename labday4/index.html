@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trung tâm cấu hình giao diện</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Trung tâm cấu hình giao diện (Demo)</h1>
+
+      <div>Chọn giao diện (Theme):</div>
+      <input type="radio" id="light" name="theme" />
+      <label for="light" class="light">Light</label>
+      <input type="radio" id="dark" name="theme" />
+      <label for="dark" class="dark">Dark</label>
+      <div>Chọn màu chủ đạo(color):</div>
+      <input type="radio" name="color" id="red" />
+      <label for="red" class="red">Red</label>
+      <input type="radio" name="color" id="blue" />
+      <label for="blue" class="blue">Blue</label>
+      <input type="radio" name="color" id="green" />
+      <label for="green" class="green">Green</label>
+      <div>Chọn ngôn ngữ (language):</div>
+      <input type="radio" name="lang" id="vi" />
+      <label for="vi" class="vi">VI</label>
+      <input type="radio" name="lang" id="en" />
+      <label for="en" class="en">EN</label>
+      <div>Tùy chọn bổ sung (option-Checkbox):</div>
+      <input type="checkbox" name="option" id="adv" />
+      <label for="adv" class="adv">Hiển thị mô tả nâng cao</label>
+      <input type="checkbox" name="option" id="eco" />
+      <label for="eco" class="eco">Bật chế Eco</label>
+      <input type="checkbox" name="option" id="warn" />
+      <label for="warn" class="warn">Hiển thị cảnh báo quan trọng</label>
+      <div class="content--default">
+        <div class="theme--light content--area">
+          Theme Light: Giao diện sáng, chữ đen
+        </div>
+        <div class="theme--dark content--area">
+          Theme Dark: Giao diện tối, chữ sáng
+        </div>
+        <div class="color--red content--area">
+          Màu red:được nhấn mạnh khi chọn Red.
+        </div>
+        <div class="color--blue content--area">
+          Màu blue:được nhấn mạnh khi chọn Blue.
+        </div>
+        <div class="color--green content--area">
+          Màu green:được nhấn mạnh khi chọn Green.
+        </div>
+        <div class="lang--vi content--area">
+          [VI] Xin chào bạn! Khi chọn VI, dòng này rõ hơn.
+        </div>
+        <div class="lang--en content--area">
+          [EN] Hello, world! Khi chọn EN, dòng này rõ hơn.
+        </div>
+        <div class="option--adv content--area">
+          Mô tả nâng cao: giải thích kỹ hơn về cách các lựa chọn ảnh hưởng giao
+          diện.
+        </div>
+        <div class="option--eco content--area">
+          Chế độ Eco: mô phỏng trạng thái tiết kiệm tài nguyên cho giao diện.
+        </div>
+        <div class="option--warn content--area">
+          Cảnh báo quan trọng: khu vực dùng để nhấn mạnh thông tin hệ thống.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

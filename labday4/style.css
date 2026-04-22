@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+.container {
+  border: 3px solid black;
+}
+
+.header {
+  margin: 0;
+  padding: 10px;
+  background: #d97706;
+  color: white;
+}
+.container div {
+  margin: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+.content--default {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  color: #ccc;
+}
+
+#light:checked ~ .light {
+  background: #fff8cc;
+  color: #8b5e00;
+}
+
+#light:checked ~ .content--default .theme--light {
+  background: #fff8cc;
+  color: #111827;
+  font-weight: bold;
+}
+
+#dark:checked ~ .dark {
+  background: #1f2937;
+  color: white;
+}
+#dark:checked ~ .content--default .theme--dark {
+  opacity: 1;
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+#red:checked ~ .red {
+  background: #fee2e2;
+  color: red;
+}
+#red:checked ~ .content--default .color--red {
+  opacity: 1;
+  background: #fee2e2;
+  color: #b91c1c;
+  font-weight: bold;
+}
+#blue:checked ~ .blue {
+  color: blue;
+  background: #dbeafe;
+}
+#blue:checked ~ .content--default .color--blue {
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-weight: bold;
+}
+#green:checked ~ .green {
+  background: #dcfce7;
+  color: green;
+}
+#green:checked ~ .content--default .color--green {
+  opacity: 1;
+  background: #dcfce7;
+  color: green;
+  font-weight: bold;
+}
+#vi:checked ~ .vi {
+  color: #166534;
+  background: #669900;
+}
+#vi:checked ~ .content--default .lang--vi {
+  opacity: 1;
+  color: #166534;
+  font-weight: bold;
+}
+#en:checked ~ .en {
+  color: blue;
+  background: #dbeafe;
+}
+#en:checked ~ .content--default .lang--en {
+  color: blue;
+  font-weight: bold;
+}
+#adv:checked ~ .adv {
+  background: #ffff33;
+  color: #996633;
+}
+#adv:checked ~ .content--default .option--adv {
+  background: #fef3c7;
+  color: #92400e;
+  font-weight: bold;
+}
+#eco:checked ~ .eco {
+  background: #669966;
+  color: #166534;
+  font-weight: bold;
+}
+#eco:checked ~ .content--default .option--eco {
+  background: #669966;
+  color: #166534;
+  font-weight: bold;
+}
+#warn:checked ~ .warn {
+  background-color: #dbeafe;
+  color: blue;
+}
+#warn:checked ~ .content--default .option--warn {
+  background-color: #dbeafe;
+  color: blue;
+  font-weight: bold;
+}
